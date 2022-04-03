@@ -3,9 +3,13 @@
 x = np.array([1,2,3])
 
 *Matrix Operation*
+
 1.Get the inverese matrix.
   from numpy.linalg import inv
   a = np.array([[1., 2.], [3., 4.]])
   ainv = inv(a)
+
 2.Identity Matrix
 i = np.identity(?)
+
+
