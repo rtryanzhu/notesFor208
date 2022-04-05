@@ -2,6 +2,12 @@
 1.Get a vector
 x = np.array([1,2,3])
 
+2.Get a vector w/ start end and leap
+x = np.arange(#start, #end_not_included, #leap)
+
+3.Get a vector w/ same values
+x = np.full(#dim,#value)
+
 *Matrix Operation*
 
 1.Get the inverese matrix.
@@ -12,4 +18,6 @@ x = np.array([1,2,3])
 2.Identity Matrix
 i = np.identity(?)
 
+3.Round up/down in a matrix
+np.matrix.round(#mat,#digits)
 
